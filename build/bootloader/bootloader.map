@@ -1,0 +1,978 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+                              (call_start_cpu)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                              /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_init)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                              /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_image_load)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
+/home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
+/home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o) (g_rom_flashchip)
+/home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o) (spi_flash_get_id_raw)
+/home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
+/home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                              /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o) (ets_vprintf)
+/home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (crc32_le)
+/home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_fast_boot_get_info)
+/home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+                              /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (phy_reg_default)
+
+Allocating common symbols
+Common symbol       size              file
+
+esp_image_spi_freq_t
+                    0x4               /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x00000000       0x54 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x00000000        0x4 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x00000000       0x78 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .literal.bootloader_utility_fast_boot_image
+                0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .text.bootloader_utility_fast_boot_image
+                0x00000000       0x35 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x00000000       0x38 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x00000000      0x498 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .literal.esp_image_verify_bootloader
+                0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text.esp_image_verify_bootloader
+                0x00000000       0x48 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x00000000       0x10 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x00000000      0x294 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x00000000       0xc0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .literal.bootloader_common_check_long_hold_gpio
+                0x00000000       0x58 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text.bootloader_common_check_long_hold_gpio
+                0x00000000      0x199 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.lit        0x00000000       0x18 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x00000000       0xf0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .literal.bootloader_flash_write
+                0x00000000       0x24 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_flash_erase_sector
+                0x00000000        0x4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_write
+                0x00000000       0x8d /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_erase_sector
+                0x00000000       0x15 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x00000000       0x48 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x00000000      0x330 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .literal.spi_flash_program
+                0x00000000       0x1c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.__spi_flash_read
+                0x00000000       0x10 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_read$part$3
+                0x00000000       0x20 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status
+                0x00000000        0xc /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_check_wr_protect
+                0x00000000       0x3c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_sector
+                0x00000000       0x18 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_read
+                0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write
+                0x00000000       0x40 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_range
+                0x00000000       0x10 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_cache2phys
+                0x00000000       0x14 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_get_chip_size
+                0x00000000        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_program
+                0x00000000       0xb8 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.__spi_flash_read
+                0x00000000       0x36 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_read$part$3
+                0x00000000       0xdc /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write_status
+                0x00000000       0x2a /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_check_wr_protect
+                0x00000000      0x107 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_sector
+                0x00000000       0x57 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_read
+                0x00000000       0x20 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write
+                0x00000000      0x1a4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_range
+                0x00000000       0x57 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_cache2phys
+                0x00000000       0x40 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text.spi_flash_get_chip_size
+                0x00000000        0x7 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xt.lit        0x00000000       0xb8 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xt.prop       0x00000000      0x894 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status_raw
+                0x00000000       0x1c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_erase_sector_raw
+                0x00000000       0x14 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_write_raw
+                0x00000000        0xc /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_read_raw
+                0x00000000        0xc /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_status_raw
+                0x00000000       0x57 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_erase_sector_raw
+                0x00000000       0x52 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_raw
+                0x00000000       0x33 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_read_raw
+                0x00000000       0x33 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xt.lit        0x00000000       0x58 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xt.prop       0x00000000      0x354 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x00000000       0x10 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x00000000       0x90 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xt.lit        0x00000000       0x18 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xt.prop       0x00000000       0xb4 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .literal.crc16_le
+                0x00000000        0x4 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .literal.esp_crc8
+                0x00000000        0x4 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .text.crc16_le
+                0x00000000       0x34 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .text.esp_crc8
+                0x00000000       0x1e /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .rodata.crc8_le_table
+                0x00000000      0x100 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .rodata.crc16_le_table
+                0x00000000      0x200 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xt.lit        0x00000000       0x18 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xt.prop       0x00000000       0xf0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .literal.esp_fast_boot_disable
+                0x00000000        0x8 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .literal.esp_fast_boot_get_info
+                0x00000000       0x2c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .literal.esp_fast_boot_print_info
+                0x00000000       0x2c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_disable
+                0x00000000       0x19 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .rodata.str1.1
+                0x00000000       0x75 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_get_info
+                0x00000000       0x83 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .text.esp_fast_boot_print_info
+                0x00000000       0x4d /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xt.lit        0x00000000       0x18 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xt.prop       0x00000000       0xc0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .literal.phy_reg_default
+                0x00000000        0x0 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+ .text          0x00000000        0x0 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+ .data          0x00000000        0x0 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+ .bss           0x00000000        0x0 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+ .xt.lit        0x00000000        0x8 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+ .xt.prop       0x00000000       0x48 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+dport0_seg       0x3ff00000         0x00000010
+dram_seg         0x3ffe8000         0x00017c00
+iram_seg         0x40100000         0x00008000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/rheakarty/esp/http/build/bootloader/main/libmain.a
+LOAD /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a
+LOAD /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a
+LOAD /home/rheakarty/esp/http/build/bootloader/log/liblog.a
+LOAD /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a
+LOAD /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a
+LOAD /home/rheakarty/esp/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/lib/libstdc++.a
+LOAD /home/rheakarty/esp/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/libgcov.a
+END GROUP
+
+.text           0x40100000     0x1984
+                0x40100000                _stext = .
+                0x40100000                _text_start = ABSOLUTE (.)
+                0x40100000                . = ALIGN (0x10)
+ *(.entry.text)
+ *(.init.literal)
+ *(.init)
+ *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ .literal.call_start_cpu
+                0x40100000        0xc /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+                                 0x24 (size before relaxing)
+ .literal.bootloader_init
+                0x4010000c       0x44 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                 0x70 (size before relaxing)
+ .literal.log_invalid_app_partition
+                0x40100050       0x14 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x1c (size before relaxing)
+ .literal.try_load_partition
+                0x40100064        0x4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x10 (size before relaxing)
+ .literal.bootloader_utility_load_partition_table
+                0x40100068       0x4c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x74 (size before relaxing)
+ .literal.bootloader_utility_get_selected_boot_partition
+                0x401000b4       0x1c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x54 (size before relaxing)
+ .literal.bootloader_utility_load_boot_image
+                0x401000d0        0xc /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x3c (size before relaxing)
+ .literal.bootloader_utility_load_image
+                0x401000dc        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                  0x4 (size before relaxing)
+ .literal.esp_image_load
+                0x401000dc       0x58 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                 0x9c (size before relaxing)
+ .literal.esp_partition_table_basic_verify
+                0x40100134       0x1c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                 0x2c (size before relaxing)
+ .literal.bootloader_common_ota_select_crc
+                0x40100150        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.bootloader_common_ota_select_valid
+                0x40100150        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.bootloader_mmap
+                0x40100150       0x2c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x3c (size before relaxing)
+ .literal.bootloader_munmap
+                0x4010017c        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.bootloader_flash_read
+                0x4010017c       0x10 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x18 (size before relaxing)
+ .literal.bootloader_read_flash_id
+                0x4010018c        0x4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                  0xc (size before relaxing)
+ .literal.bootloader_execute_flash_command
+                0x40100190        0x4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x14 (size before relaxing)
+ .literal.bootloader_flash_read_sfdp
+                0x40100194        0x4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x14 (size before relaxing)
+ .literal.bootloader_flash_xmc_startup
+                0x40100198        0xc /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x40 (size before relaxing)
+ .literal.spi_user_cmd
+                0x401001a4        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_read_status
+                0x401001a8        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.special_flash_write_status
+                0x401001a8        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_enable_QIO_mode
+                0x401001a8        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.en25q16x_read_sfdp
+                0x401001a8        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_get_id
+                0x401001ac        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_read_status
+                0x401001ac        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_issi_enable_QIO_mode
+                0x401001ac        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_set_mode
+                0x401001ac        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.en25q16x_write_volatile_status
+                0x401001ac        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x14 (size before relaxing)
+ .literal.user_spi_flash_dio_to_qio_pre_init
+                0x401001ac       0x10 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x30 (size before relaxing)
+ .literal.esp_spi_flash_init
+                0x401001bc       0x20 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x28 (size before relaxing)
+ .literal.Cache_Read_Disable_2
+                0x401001dc        0xc /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.Cache_Read_Enable_2
+                0x401001e8        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_get_id_raw
+                0x401001ec       0x10 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x14 (size before relaxing)
+ .literal.spi_flash_read_status_raw
+                0x401001fc        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_enable_qmode_raw
+                0x40100200        0x4 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.spi_user_cmd_raw
+                0x40100204       0x64 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x84 (size before relaxing)
+ .literal.spi_flash_switch_to_qio_raw
+                0x40100268        0x8 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.ets_putc
+                0x40100270        0x8 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .literal.ets_vprintf
+                0x40100278        0x8 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .literal.crc32_le
+                0x40100280        0x4 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .iram1.0.literal
+                0x40100284        0x8 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .iram1.1.literal
+                0x4010028c       0x18 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+                                 0x30 (size before relaxing)
+ .iram1.0.literal
+                0x401002a4        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                                  0x8 (size before relaxing)
+ .text.call_start_cpu
+                0x401002a4       0x72 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+                                 0x82 (size before relaxing)
+                0x401002a4                call_start_cpu
+ *fill*         0x40100316        0x2 
+ .text.bootloader_init
+                0x40100318       0xe2 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0x106 (size before relaxing)
+                0x40100318                bootloader_init
+ *fill*         0x401003fa        0x2 
+ .text.log_invalid_app_partition
+                0x401003fc       0x3d /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x40100439        0x3 
+ .text.try_load_partition
+                0x4010043c       0x37 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0x3f (size before relaxing)
+ *fill*         0x40100473        0x1 
+ .text.bootloader_utility_load_partition_table
+                0x40100474      0x167 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x17b (size before relaxing)
+                0x40100474                bootloader_utility_load_partition_table
+ *fill*         0x401005db        0x1 
+ .text.bootloader_utility_get_selected_boot_partition
+                0x401005dc      0x10e /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x11a (size before relaxing)
+                0x401005dc                bootloader_utility_get_selected_boot_partition
+ *fill*         0x401006ea        0x2 
+ .text.bootloader_utility_load_boot_image
+                0x401006ec       0xd2 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                 0xea (size before relaxing)
+                0x401006ec                bootloader_utility_load_boot_image
+ *fill*         0x401007be        0x2 
+ .text.bootloader_utility_load_image
+                0x401007c0       0x28 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x401007c0                bootloader_utility_load_image
+ .text.esp_image_load
+                0x401007e8      0x320 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x33c (size before relaxing)
+                0x401007e8                esp_image_load
+ .text.esp_partition_table_basic_verify
+                0x40100b08       0xd2 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                 0xd6 (size before relaxing)
+                0x40100b08                esp_partition_table_basic_verify
+ *fill*         0x40100bda        0x2 
+ .text.bootloader_common_ota_select_crc
+                0x40100bdc       0x18 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x40100bdc                bootloader_common_ota_select_crc
+ .text.bootloader_common_ota_select_valid
+                0x40100bf4       0x2d /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x40100bf4                bootloader_common_ota_select_valid
+ *fill*         0x40100c21        0x3 
+ .text.bootloader_mmap
+                0x40100c24       0xa1 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0xa5 (size before relaxing)
+                0x40100c24                bootloader_mmap
+ *fill*         0x40100cc5        0x3 
+ .text.bootloader_munmap
+                0x40100cc8       0x23 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40100cc8                bootloader_munmap
+ *fill*         0x40100ceb        0x1 
+ .text.bootloader_flash_read
+                0x40100cec       0x4e /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40100cec                bootloader_flash_read
+ *fill*         0x40100d3a        0x2 
+ .text.bootloader_read_flash_id
+                0x40100d3c       0x2a /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x40100d3c                bootloader_read_flash_id
+ *fill*         0x40100d66        0x2 
+ .text.bootloader_execute_flash_command
+                0x40100d68       0x4d /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x51 (size before relaxing)
+                0x40100d68                bootloader_execute_flash_command
+ *fill*         0x40100db5        0x3 
+ .text.bootloader_flash_read_sfdp
+                0x40100db8       0x51 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0x55 (size before relaxing)
+                0x40100db8                bootloader_flash_read_sfdp
+ *fill*         0x40100e09        0x3 
+ .text.bootloader_flash_xmc_startup
+                0x40100e0c       0x99 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                 0xb9 (size before relaxing)
+                0x40100e0c                bootloader_flash_xmc_startup
+ *fill*         0x40100ea5        0x3 
+ .text.spi_user_cmd
+                0x40100ea8       0x43 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40100ea8                spi_user_cmd
+ *fill*         0x40100eeb        0x1 
+ .text.special_flash_read_status
+                0x40100eec       0x35 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40100eec                special_flash_read_status
+ *fill*         0x40100f21        0x3 
+ .text.special_flash_write_status
+                0x40100f24       0x4d /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40100f24                special_flash_write_status
+ *fill*         0x40100f71        0x3 
+ .text.flash_gd25q32c_enable_QIO_mode
+                0x40100f74       0x3d /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x49 (size before relaxing)
+ *fill*         0x40100fb1        0x3 
+ .text.en25q16x_read_sfdp
+                0x40100fb4       0x43 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40100fb4                en25q16x_read_sfdp
+ *fill*         0x40100ff7        0x1 
+ .text.spi_flash_get_id
+                0x40100ff8       0x26 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40100ff8                spi_flash_get_id
+ *fill*         0x4010101e        0x2 
+ .text.spi_flash_read_status
+                0x40101020       0x28 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40101020                spi_flash_read_status
+ .text.spi_flash_issi_enable_QIO_mode
+                0x40101048       0x3b /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x43 (size before relaxing)
+ *fill*         0x40101083        0x1 
+ .text.special_flash_set_mode
+                0x40101084       0x3d /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x40101084                special_flash_set_mode
+ *fill*         0x401010c1        0x3 
+ .text.en25q16x_write_volatile_status
+                0x401010c4       0x4f /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x5b (size before relaxing)
+                0x401010c4                en25q16x_write_volatile_status
+ *fill*         0x40101113        0x1 
+ .text.user_spi_flash_dio_to_qio_pre_init
+                0x40101114       0x95 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0x9d (size before relaxing)
+                0x40101114                user_spi_flash_dio_to_qio_pre_init
+ *fill*         0x401011a9        0x3 
+ .text.esp_spi_flash_init
+                0x401011ac       0xbd /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                 0xc1 (size before relaxing)
+                0x401011ac                esp_spi_flash_init
+ *fill*         0x40101269        0x3 
+ .text.Cache_Read_Disable_2
+                0x4010126c       0x35 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x4010126c                Cache_Read_Disable_2
+ *fill*         0x401012a1        0x3 
+ .text.Cache_Read_Enable_2
+                0x401012a4       0x28 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x401012a4                Cache_Read_Enable_New
+                0x401012a4                Cache_Read_Enable_2
+ .text.spi_flash_get_id_raw
+                0x401012cc       0x3b /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x401012cc                spi_flash_get_id_raw
+ *fill*         0x40101307        0x1 
+ .text.spi_flash_read_status_raw
+                0x40101308       0x27 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x2b (size before relaxing)
+                0x40101308                spi_flash_read_status_raw
+ *fill*         0x4010132f        0x1 
+ .text.spi_flash_enable_qmode_raw
+                0x40101330       0x33 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                 0x37 (size before relaxing)
+                0x40101330                spi_flash_enable_qmode_raw
+ *fill*         0x40101363        0x1 
+ .text.spi_user_cmd_raw
+                0x40101364      0x3c6 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x40101364                spi_user_cmd_raw
+ *fill*         0x4010172a        0x2 
+ .text.spi_flash_switch_to_qio_raw
+                0x4010172c       0x25 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x4010172c                spi_flash_switch_to_qio_raw
+ *fill*         0x40101751        0x3 
+ .text.ets_putc
+                0x40101754       0x3b /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x40101754                ets_putc
+ *fill*         0x4010178f        0x1 
+ .text.ets_vprintf
+                0x40101790       0x1f /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x40101790                ets_vprintf
+ *fill*         0x401017af        0x1 
+ .text.crc32_le
+                0x401017b0       0x2d /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x401017b0                crc32_le
+ *fill*         0x401017dd        0x3 
+ .text.phy_reg_default
+                0x401017e0       0x36 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+                0x401017f0                phy_reg_default
+ *fill*         0x40101816        0x0 
+ *fill*         0x40101816        0x2 
+ .text.index_to_partition
+                0x40101818       0x48 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ *fill*         0x40101860        0x0 
+ .text.is_xmc_chip_strict
+                0x40101860       0x46 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *fill*         0x401018a6        0x0 
+ *(.iram1 .iram1.*)
+ *fill*         0x401018a6        0x2 
+ .iram1.0       0x401018a8       0x18 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+                0x401018a8                esp_log_early_timestamp
+ .iram1.1       0x401018c0       0x8a /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+                                 0x95 (size before relaxing)
+                0x401018c0                esp_early_log_write
+ *fill*         0x4010194a        0x2 
+ .iram1.0       0x4010194c       0x38 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x4010194c                ets_printf
+ *fill*         0x40101984        0x0 
+ *fill*         0x40101984        0x0 
+ *(.fini.literal)
+ *(.fini)
+ *(.gnu.version)
+                0x40101984                _text_end = ABSOLUTE (.)
+                0x40101984                _etext = .
+
+.bss            0x3ffe8000      0x408
+                0x3ffe8000                . = ALIGN (0x8)
+                0x3ffe8000                _bss_start = ABSOLUTE (.)
+ *(.dynsbss)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+ *(.dynbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.pbuf$3481
+                0x3ffe8000      0x400 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss.mapped    0x3ffe8400        0x1 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss.FlashIsOnGoing
+                0x3ffe8401        0x1 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x3ffe8401                FlashIsOnGoing
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x3ffe8408                . = ALIGN (0x8)
+ *fill*         0x3ffe8402        0x6 
+                0x3ffe8408                _bss_end = ABSOLUTE (.)
+
+.data           0x3ffe8408       0x18
+                0x3ffe8408                _data_start = ABSOLUTE (.)
+ *(.data)
+ *(.data.*)
+ .data.g_rom_flashchip
+                0x3ffe8408       0x18 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x3ffe8408                g_rom_flashchip
+ *(.gnu.linkonce.d.*)
+ *(.data1)
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+ *(.jcr)
+                0x3ffe8420                _data_end = ABSOLUTE (.)
+
+.rodata         0x3ffe8420      0xdf8
+                0x3ffe8420                _rodata_start = ABSOLUTE (.)
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.1
+                0x3ffe8420       0x21 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .rodata.str1.1
+                0x3ffe8441      0x10d /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0x11b (size before relaxing)
+ *fill*         0x3ffe854e        0x2 
+ .rodata.CSWTCH$9
+                0x3ffe8550       0x20 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .rodata.CSWTCH$8
+                0x3ffe8570        0xc /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .rodata.CSWTCH$7
+                0x3ffe857c       0x40 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .rodata.str1.1
+                0x3ffe85bc      0x334 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x339 (size before relaxing)
+ .rodata.str1.1
+                0x3ffe88f0      0x227 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x228 (size before relaxing)
+ .rodata.str1.1
+                0x3ffe8b17       0xb1 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .rodata.str1.1
+                0x3ffe8bc8      0x1ed /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .rodata.str1.1
+                0x3ffe8db5       0x29 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .rodata.str1.1
+                0x3ffe8dde       0x1c /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .rodata.s_log_prefix
+                0x3ffe8dfa        0x6 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .rodata.s_log_color
+                0x3ffe8e00       0x18 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .rodata.crc32_le_table
+                0x3ffe8e18      0x400 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ *(.gnu.linkonce.r.*)
+ *(.rodata1)
+                0x3ffe9218                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+ *(.xt_except_table)
+ *(.gcc_except_table)
+ *(.gnu.linkonce.e.*)
+ *(.gnu.version_r)
+ *(.eh_frame)
+                0x3ffe9218                . = ((. + 0x3) & 0xfffffffc)
+                0x3ffe9218                __init_array_start = ABSOLUTE (.)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x3ffe9218                __init_array_end = ABSOLUTE (.)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x3ffe9218                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+ *(.xt_except_desc)
+ *(.gnu.linkonce.h.*)
+                0x3ffe9218                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+ *(.xt_except_desc_end)
+ *(.dynamic)
+ *(.gnu.version_d)
+                0x3ffe9218                _rodata_end = ABSOLUTE (.)
+                0x3ffe9218                _lit4_start = ABSOLUTE (.)
+ *(*.lit4)
+ *(.lit4.*)
+ *(.gnu.linkonce.lit4.*)
+                0x3ffe9218                _lit4_end = ABSOLUTE (.)
+                0x3ffe9218                . = ALIGN (0x4)
+                0x3ffe9218                _heap_start = ABSOLUTE (.)
+                0x60001100                PROVIDE (rtc_sys_info, 0x60001100)
+                0x400040c0                PROVIDE (SPI_sector_erase, 0x400040c0)
+                0x40004174                PROVIDE (SPI_page_program, 0x40004174)
+                0x400042ac                PROVIDE (SPI_read_data, 0x400042ac)
+                0x400043c8                PROVIDE (SPI_read_status, 0x400043c8)
+                0x40004400                PROVIDE (SPI_write_status, 0x40004400)
+                0x4000443c                PROVIDE (SPI_write_enable, 0x4000443c)
+                0x4000448c                PROVIDE (Wait_SPI_Idle, 0x4000448c)
+                0x400044c0                PROVIDE (Enable_QMode, 0x400044c0)
+                [!provide]                PROVIDE (Disable_QMode, 0x40004508)
+                0x40004678                PROVIDE (Cache_Read_Enable, 0x40004678)
+                0x400047f0                PROVIDE (Cache_Read_Disable, 0x400047f0)
+                [!provide]                PROVIDE (lldesc_build_chain, 0x40004f40)
+                [!provide]                PROVIDE (lldesc_num2link, 0x40005050)
+                [!provide]                PROVIDE (lldesc_set_owner, 0x4000507c)
+                0x4000c538                __adddf3 = 0x4000c538
+                0x4000c180                __addsf3 = 0x4000c180
+                0x4000cb94                __divdf3 = 0x4000cb94
+                0x4000ce60                __divdi3 = 0x4000ce60
+                0x4000dc88                __divsi3 = 0x4000dc88
+                0x4000cdfc                __extendsfdf2 = 0x4000cdfc
+                0x4000ccb8                __fixdfsi = 0x4000ccb8
+                0x4000cd00                __fixunsdfsi = 0x4000cd00
+                0x4000c4c4                __fixunssfsi = 0x4000c4c4
+                0x4000e2f0                __floatsidf = 0x4000e2f0
+                0x4000e2ac                __floatsisf = 0x4000e2ac
+                0x4000e2e8                __floatunsidf = 0x4000e2e8
+                0x4000e2a4                __floatunsisf = 0x4000e2a4
+                0x4000c8f0                __muldf3 = 0x4000c8f0
+                0x40000650                __muldi3 = 0x40000650
+                0x4000c3dc                __mulsf3 = 0x4000c3dc
+                0x4000c688                __subdf3 = 0x4000c688
+                0x4000c268                __subsf3 = 0x4000c268
+                0x4000cd5c                __truncdfsf2 = 0x4000cd5c
+                0x4000d310                __udivdi3 = 0x4000d310
+                0x4000e21c                __udivsi3 = 0x4000e21c
+                0x4000d770                __umoddi3 = 0x4000d770
+                0x4000e268                __umodsi3 = 0x4000e268
+                0x4000dcf0                __umulsidi3 = 0x4000dcf0
+                0x4000de84                bzero = 0x4000de84
+                0x4000dea8                memcmp = 0x4000dea8
+                0x4000df48                memcpy = 0x4000df48
+                0x4000e04c                memmove = 0x4000e04c
+                0x4000e190                memset = 0x4000e190
+                0x4000bdc8                strcmp = 0x4000bdc8
+                0x4000bec8                strcpy = 0x4000bec8
+                0x4000bf4c                strlen = 0x4000bf4c
+                0x4000bfa8                strncmp = 0x4000bfa8
+                0x4000c0a0                strncpy = 0x4000c0a0
+                0x4000e1e0                strstr = 0x4000e1e0
+                0x40004cf0                PROVIDE (gpio_input_get, 0x40004cf0)
+                [!provide]                PROVIDE (gpio_pin_wakeup_disable, 0x40004ed4)
+                [!provide]                PROVIDE (gpio_pin_wakeup_enable, 0x40004e90)
+                0x40001f00                PROVIDE (ets_io_vprintf, 0x40001f00)
+                [!provide]                PROVIDE (uart_rx_one_char, 0x40003b8c)
+                [!provide]                PROVIDE (rom_i2c_readReg, 0x40007268)
+                [!provide]                PROVIDE (rom_i2c_readReg_Mask, 0x4000729c)
+                [!provide]                PROVIDE (rom_i2c_writeReg, 0x400072d8)
+                [!provide]                PROVIDE (rom_i2c_writeReg_Mask, 0x4000730c)
+                [!provide]                PROVIDE (rom_software_reboot, 0x40000080)
+                [!provide]                PROVIDE (ets_memcpy, 0x400018b4)
+                0x40004b1c                PROVIDE (SPIRead, 0x40004b1c)
+                0x40004a4c                PROVIDE (SPIWrite, 0x40004a4c)
+                0x40004a00                PROVIDE (SPIEraseSector, 0x40004a00)
+                [!provide]                PROVIDE (gpio_input_get, 0x40004cf0)
+                [!provide]                PROVIDE (xthal_get_ccount, 0x4000dd38)
+                [!provide]                PROVIDE (uart_div_modify, 0x400039d8)
+                [!provide]                PROVIDE (ets_io_vprintf, 0x40001f00)
+                0x40002ecc                PROVIDE (ets_rom_delay_us, 0x40002ecc)
+OUTPUT(/home/rheakarty/esp/http/build/bootloader/bootloader.elf elf32-xtensa-le)
+
+.debug_frame    0x00000000      0xa44
+ .debug_frame   0x00000000       0x30 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x00000030       0x34 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_frame   0x00000064      0x13c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x000001a0       0x68 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000208       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000244       0x80 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x000002c4      0x170 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000434      0x334 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_frame   0x00000768      0x15c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_frame   0x000008c4       0x58 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000091c       0x60 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_frame   0x0000097c       0x40 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_frame   0x000009bc       0x88 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_info     0x00000000     0x5b79
+ .debug_info    0x00000000      0x51f /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x0000051f      0x4ec /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x00000a0b      0xe16 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x00001821      0xbe4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00002405      0x3c7 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x000027cc      0x339 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x00002b05      0xa71 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00003576     0x14b7 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_info    0x00004a2d      0x6b6 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_info    0x000050e3      0x307 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x000053ea      0x265 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_info    0x0000564f      0x20d /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_info    0x0000585c      0x31d /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_abbrev   0x00000000     0x18f0
+ .debug_abbrev  0x00000000      0x1ca /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x000001ca      0x1d7 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x000003a1      0x2b8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x00000659      0x241 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x0000089a      0x170 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x00000a0a      0x1a8 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x00000bb2      0x28f /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x00000e41      0x3f6 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_abbrev  0x00001237      0x178 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_abbrev  0x000013af      0x1c8 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x00001577      0x19d /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_abbrev  0x00001714       0xa0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_abbrev  0x000017b4      0x13c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_loc      0x00000000     0x31c4
+ .debug_loc     0x00000000       0x7c /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x0000007c       0x70 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x000000ec      0x6c4 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x000007b0      0x7ad /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00000f5d      0x129 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00001086      0x14c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x000011d2      0x6ca /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000189c     0x106d /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_loc     0x00002909      0x48f /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_loc     0x00002d98       0xd0 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00002e68       0x8c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_loc     0x00002ef4      0x236 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_loc     0x0000312a       0x9a /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_aranges  0x00000000      0x370
+ .debug_aranges
+                0x00000000       0x20 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_aranges
+                0x00000020       0x20 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_aranges
+                0x00000040       0x58 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_aranges
+                0x00000098       0x28 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_aranges
+                0x000000c0       0x20 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_aranges
+                0x000000e0       0x30 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_aranges
+                0x00000110       0x68 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_aranges
+                0x00000178       0xd0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_aranges
+                0x00000248       0x70 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_aranges
+                0x000002b8       0x28 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_aranges
+                0x000002e0       0x30 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_aranges
+                0x00000310       0x30 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_aranges
+                0x00000340       0x30 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_ranges   0x00000000      0x470
+ .debug_ranges  0x00000000       0x10 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x00000010       0x10 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_ranges  0x00000020       0x80 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x000000a0      0x120 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x000001c0       0x10 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x000001d0       0x50 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x00000220       0x58 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x00000278      0x120 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_ranges  0x00000398       0x60 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_ranges  0x000003f8       0x18 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x00000410       0x20 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_ranges  0x00000430       0x20 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_ranges  0x00000450       0x20 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_line     0x00000000     0x4285
+ .debug_line    0x00000000      0x370 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x00000370      0x374 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x000006e4      0x875 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x00000f59      0x60e /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00001567      0x336 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x0000189d      0x35e /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00001bfb      0x6da /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000022d5      0xd9c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_line    0x00003071      0x6f0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_line    0x00003761      0x34d /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x00003aae      0x2bd /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_line    0x00003d6b      0x1be /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_line    0x00003f29      0x35c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+
+.debug_str      0x00000000     0x19a3
+ .debug_str     0x00000000      0x47a /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+                                0x503 (size before relaxing)
+ .debug_str     0x0000047a      0x307 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                0x5a2 (size before relaxing)
+ .debug_str     0x00000781      0x2ec /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                0x781 (size before relaxing)
+ .debug_str     0x00000a6d      0x1d0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                0x776 (size before relaxing)
+ .debug_str     0x00000c3d       0xe3 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                0x3ae (size before relaxing)
+ .debug_str     0x00000d20      0x16b /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                0x380 (size before relaxing)
+ .debug_str     0x00000e8b      0x28f /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                0x5c7 (size before relaxing)
+ .debug_str     0x0000111a      0x4ab /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                0x918 (size before relaxing)
+ .debug_str     0x000015c5      0x12c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                0x4ae (size before relaxing)
+ .debug_str     0x000016f1      0x108 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+                                0x2c3 (size before relaxing)
+ .debug_str     0x000017f9       0xa9 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                                0x236 (size before relaxing)
+ .debug_str     0x000018a2       0x83 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+                                0x1a7 (size before relaxing)
+ .debug_str     0x00001925       0x7e /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                                0x2ec (size before relaxing)
+
+.comment        0x00000000       0x75
+ .comment       0x00000000       0x3b /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+                                 0x3c (size before relaxing)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .comment       0x0000003b       0x3c /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .comment       0x0000003b       0x3a /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+                                 0x3b (size before relaxing)
+
+.xtensa.info    0x00000000       0x38
+ .xtensa.info   0x00000000       0x38 /home/rheakarty/esp/http/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/http/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xtensa.info   0x00000038        0x0 /home/rheakarty/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
